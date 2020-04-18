@@ -1,0 +1,40 @@
+.in{
+	display:inline-block; /*отоброжение*/
+	background-color: aliceblue;
+	width:25%; /*относительная ширина*/
+	border:4px black solid;/*указываем сразу все свойства граници*/
+	border-left-width:20px;
+	height:90%;   
+    vertical-align:top; /*вертикальное выравневание*/
+	margin:5px;/*внешний отступ*/
+	padding:10px;/*внутрений отступ*/
+	text-align:center;/*выравнивание текста*/
+}
+img{
+	width:100%;
+}
+h2{
+	color:#EE82EE;
+	font-size:60px;
+}
+body{
+	background-color:#0000FF;
+}
+a{
+	text-decoration:none;
+	font-size: 40px;
+	color: black;
+}
+.on{
+	display: inline-block; /*отоброжение*/
+	background-color: aliceblue;
+	width:45%; /*относительная ширина*/
+	border:20px;/*указываем сразу все свойства граници*/
+	border-left-width:100px;
+	height:90%;   
+    vertical-align:top; /*вертикальное выравневание*/
+	margin:30px;/*внешний отступ*/
+	padding:40px;/*внутрений отступ*/
+	text-align:left;/*выравнивание текста*/
+	background-color:#87CEEB;
+}

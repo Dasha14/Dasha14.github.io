@@ -1,0 +1,16 @@
+.important{  /*класс тега*/
+	color: salmon;   /*цвет текста*/
+	font-weight: bold;  /*толщина шрифта*/
+	list-style-type: circle;   /*стили маркеров*/
+}
+.finished{
+	text-decoration: line-through;   /*стиль линий текста*/
+	color: silver;   
+}
+#first{  /*id тега*/
+	font-size: 20pt
+}
+ul li{  /*тег li внутри тега ul*/
+	font-size: 30pt;
+	list-style-type: square; 
+}

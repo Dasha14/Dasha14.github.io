@@ -1,0 +1,22 @@
+body{
+	background-image:url(img/repeat-image.jpg); /*картинка-фон,указываем путь к картинке*/
+	background-image:url(img/милота.jpg);
+	background-repeat: no-repeat;/*дублирование фона,no-repeat-не дублировать*/
+	background-repeat: repeat-x;/*дублирование фона по горизонтали*/
+	background-repeat: repeat-y;/*дублирование фона по вертикали*/
+	background-repeat: repeat;/*дублирование фона*/
+	background-position: 30px 50px;/*расположение фона 1.по горизонтали, 2.по вертикали*/
+}
+.frame{
+	background-image:/*можно указывать несколько значений*/
+		url(img/top-bg.png),
+		url(img/bottom-bg.png),
+		url(img/center-bg.png);
+	background-position: top,bottom,center;
+	background-repeat:no-repeat,no-repeat,repeat-y;
+	width: 500px;
+	padding:70px 100px;
+	text-align: justify;/*выравнивание текста по ширине*/
+	background-size: contain;/*зависимость размера фона по размеру контейнера*/
+	margin: 0 auto;
+}

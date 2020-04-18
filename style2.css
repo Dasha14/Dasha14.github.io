@@ -1,0 +1,14 @@
+.chess {
+	width: 500px;   
+	margin: 0 auto;	
+	padding: 0;
+	list-style: none;
+}
+.chess li {
+	float: left;
+ 	width: 19%;   
+	border: 1px solid #ddd;
+	margin: -1px -1px 0 0; /* Уберем двойную рамку */ 
+	padding: 40px 0;
+	text-align: center;
+}

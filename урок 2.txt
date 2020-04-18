@@ -1,0 +1,43 @@
+/*стили для td и th*/    td, th {
+border-width: 1px;                                       толщина границ
+border-style: solid;                                     стиль граници
+border-color: black;                                     цвет границ 
+font-size: 50px;                                         размер шрифта
+	}
+		table {                                  
+			border-collapse: collapse;       соеденение границ в одну
+			width: 30%;                      ширина элемента
+		}
+		caption {                                
+			font-size: 50px;
+		}
+	</style>
+</head>
+<body>
+	<table>                                           создание таблиц
+		<caption> Понедельник </caption>          заголовок таблици
+		<thead>                                   строка заголовка
+        	<tr>                                      создание строки
+        		<th> № </th>                      ячейка заголовка
+        		<th> урок </th>
+        		<th> кабинет </th>
+        	</tr>
+        </thead>
+		<tr> 
+			<td> 1. </td>                     ячейка
+			<td> Химия </td>
+			<td> №410 </td>
+		</tr>
+		<tr>
+			<td> 2. </td>
+			<td> Физика </td>
+			<td> №308 </td>
+		</tr>
+		<tr>
+			<td> 3. </td>
+			<td> Биология </td>
+			<td> №201 </td>
+		</tr>
+	</table>		
+</body>
+</html>
